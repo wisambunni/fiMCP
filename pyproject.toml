@@ -1,0 +1,12 @@
+[project]
+name = "fimcp"
+version = "0.1.0"
+description = "Python based MCP server for alpha vantage API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "fastmcp>=2.3",
+    "pytest>=8.4.1",
+]
+
